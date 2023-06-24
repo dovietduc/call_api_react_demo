@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ApiDemo from './components/ApiDemo';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	return (
+		<div className="App">
+			<ApiDemo/>
+		</div>
+	);
 }
 
 export default App;
+
+// có 1 component root APP
+// các componet con
+// 1. Truyền data từ con lên cha
+// 2. truyền data từ cha xuống con
